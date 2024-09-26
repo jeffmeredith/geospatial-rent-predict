@@ -16,7 +16,7 @@
         margin: 0 auto;
     }
 
-        header {
+    header {
         text-align: center;
         padding: 20px 0;
     }
@@ -47,6 +47,7 @@
 <body>
   <div class="container">
     <header>
+      <h2 style="color: red;">IN PROGRESS</h1>
       <h1>Rental Price Prediction Using Geospatial Data</h1>
       <h2><a href="https://github.com/jeffmeredith/geospatial-rent-predict">Data Collection and Modeling Code</a></h2>
     </header>
@@ -103,6 +104,15 @@
     <section id="sarima">
       <h2>Residual Plot of Linear Regression Model</h2>
       <img src="plots/residual_plot.png" alt="Residual Plot">
+    </section>
+
+    <section>
+      <h2>Next Steps</h2>
+      <ul>
+        <li>Improve correlation coefficient of regression by selecting only the most relevant amenity features. Unfortunately, the current R<sup>2</sup> is only <b>0.425</b></li>
+        <li>Implement timeseries analysis to project future rental prices and future vacancy rates in different regions.</li>
+        <li>Combine rental price and vacancy rate predictions to produce Discounted Cash Flow projections.</li>
+      </ul>
     </section>
 
     <section>
